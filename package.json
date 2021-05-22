@@ -1,0 +1,30 @@
+{
+	"name": "sushi-restaurant-landing-page-vite2-vue3-tailwind2-starter",
+	"version": "1.0.0",
+	"private": false,
+	"description": "Sushi restaurant landing page mockup using Vite 2.x + Vue 3.x + Tailwind 2.x",
+	"scripts": {
+		"dev": "vite",
+		"build": "vite build",
+		"serve": "vite preview"
+	},
+	"dependencies": {
+		"vue": "^3.0.11",
+		"vue-router": "^4.0.6",
+		"vue3-carousel": "^0.1.19"
+	},
+	"devDependencies": {
+		"@headlessui/vue": "^1.0.0",
+		"@heroicons/vue": "^1.0.1",
+		"@tailwindcss/aspect-ratio": "^0.2.0",
+		"@tailwindcss/forms": "^0.3.2",
+		"@tailwindcss/line-clamp": "^0.2.0",
+		"@tailwindcss/typography": "^0.4.0",
+		"autoprefixer": "^10.2.5",
+		"@types/tailwindcss": "^2.0.2",
+		"tailwindcss": "^2.1.1",
+		"@vue/compiler-sfc": "^3.0.11",
+		"@vitejs/plugin-vue": "^1.2.1",
+		"vite": "^2.2.1"
+	}
+}
