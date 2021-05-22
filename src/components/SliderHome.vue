@@ -11,14 +11,14 @@
                 >
                     <div class="">
                         <div
-                            class="text-1xl md:text-4xl bg-black bg-opacity-50 text-white text-center block px-8 py-2 md:py-8"
+                            class="text-1xl md:text-4xl bg-black bg-opacity-50 text-white text-center block px-8 py-2 md:py-8 mb-4"
                         >
                             <span class="opacity-100">{{
                                 slide.headLine
                             }}</span>
                         </div>
                         <div
-                            class="h-32 flex flex-wrap content-around justify-center gap-2 md:gap-4"
+                            class="flex flex-wrap content-around justify-center gap-2 md:gap-4"
                         >
                             <button
                                 class="text-xs md:text-base bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-2 rounded"
