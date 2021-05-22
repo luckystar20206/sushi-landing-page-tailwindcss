@@ -9,7 +9,7 @@
             >
                 <div class="w-full pt-1 pb-5">
                     <div
-                        class="overflow-hidden rounded-full w-20 h-20 -mt-16 mx-auto shadow-lg"
+                        class="overflow-hidden rounded-full w-20 h-20 mt-0 md:-mt-16 mx-auto shadow-lg"
                     >
                         <img :src="reviewProfile" alt="" />
                     </div>
