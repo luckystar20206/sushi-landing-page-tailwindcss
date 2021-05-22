@@ -28,7 +28,11 @@
                             <button
                                 class="text-xs md:text-base bg-white hover:bg-gray-200 text-gray-700 font-bold py-2 px-2 rounded"
                             >
-                                <a href="/menu">View Menu</a>
+                                <a
+                                    href="/menu"
+                                    @click="handleSliderButton('/menu')"
+                                    >View Menu</a
+                                >
                             </button>
                         </div>
                     </div>
@@ -70,6 +74,16 @@ export default defineComponent({
             snapAlign: "center",
         },
     }),
+    methods: {
+        handleSliderButton(url) {
+            // Add a custom event listener to the buttons in slider due to vue3-carousel uses event.preventDefault(); which prevents buttons from working on mobile
+            if (!url) {
+                return;
+            }
+            location.href = url;
+        },
+    },
+    mounted() {},
     computed: {},
 });
 </script>
