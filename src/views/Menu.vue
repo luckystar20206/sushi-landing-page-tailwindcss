@@ -27,7 +27,7 @@
             </div>
 
             <h2
-                class="text-3xl text-center uppercase block mb-6"
+                class="text-2xl md:text-3xl text-center uppercase block mb-6"
                 id="menu-sushi"
             >
                 Sushi menu
@@ -38,7 +38,7 @@
             <menu-sushi></menu-sushi>
 
             <h2
-                class="text-3xl text-center uppercase block mb-6"
+                class="text-2xl md:text-3xl text-center uppercase block mb-6"
                 id="menu-kitchen"
             >
                 Kitchen menu
@@ -49,7 +49,7 @@
             </h3>
             <menu-kitchen></menu-kitchen>
             <h2
-                class="text-3xl text-center uppercase block mb-6"
+                class="text-2xl md:text-3xl text-center uppercase block mb-6"
                 id="menu-drinks"
             >
                 Drinks menu
