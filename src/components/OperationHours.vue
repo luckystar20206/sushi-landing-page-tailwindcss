@@ -1,7 +1,5 @@
 <template>
     <div class="px-8 py-8">
-        <h2 class="text-3xl text-center uppercase block mb-6">Hours</h2>
-
         <div class="grid grid-cols-1 divide-y divide-yellow-500 divide-dashed">
             <div class="py-4 flex">
                 <div class="w-1/6">Mon</div>

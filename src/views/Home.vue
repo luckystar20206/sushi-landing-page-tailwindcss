@@ -4,7 +4,7 @@
             <slider-home></slider-home>
             <!-- <home-background></home-background> -->
 
-            <h2 class="text-4xl text-center uppercase block mb-6">
+            <h2 class="text-2xl md:text-4xl text-center uppercase block mb-6">
                 Explore our menu
             </h2>
             <h3 class="text-1xl text-center text-gray-700 block mb-16">
@@ -25,15 +25,28 @@
                 class="container mx-auto grid grid-cols-1 md:grid-cols-2 gap-4 place-items-center"
             >
                 <div class="w-full">
+                    <h2
+                        class="text-2xl md:text-4xl text-center uppercase block mb-6"
+                    >
+                        Hours
+                    </h2>
+
                     <operation-hours></operation-hours>
                 </div>
 
-                <div class="w-full"><location></location></div>
+                <div class="w-full">
+                    <h2
+                        class="text-2xl md:text-4xl text-center uppercase block mb-6"
+                    >
+                        Location
+                    </h2>
+                    <location></location>
+                </div>
             </div>
         </div>
         <div class="mb-16"></div>
 
-        <h2 class="text-4xl text-center uppercase block mb-6">
+        <h2 class="text-2xl md:text-4xl text-center uppercase block mb-6">
             Customer reviews
         </h2>
 
@@ -41,7 +54,9 @@
 
         <div class="mb-16"></div>
 
-        <h2 class="text-4xl text-center uppercase block mb-6">Gallery</h2>
+        <h2 class="text-2xl md:text-4xl text-center uppercase block mb-6">
+            Gallery
+        </h2>
 
         <gallery></gallery>
     </main>
