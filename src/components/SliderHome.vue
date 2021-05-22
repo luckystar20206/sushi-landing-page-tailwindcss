@@ -1,13 +1,9 @@
 <template>
     <div>
-        <Carousel :autoplay="6000" :wrap-around="true" class="mb-0 md:mb-12">
-            <Slide
-                v-for="(slide, index) in slides"
-                :key="slide"
-                class="relative h-screen"
-            >
+        <Carousel :autoplay="6000" :wrap-around="true" class="mb-12">
+            <Slide v-for="(slide, index) in slides" :key="slide">
                 <div
-                    class="absolute bg-cover bg-no-repeat inset-0 flex items-center justify-center"
+                    class="relative h-48 md:h-96 w-full bg-cover bg-no-repeat flex items-center justify-center"
                     :style="{
                         'background-image': slide.bg,
                         'background-position': backgroundPosition,
@@ -15,7 +11,7 @@
                 >
                     <div class="">
                         <div
-                            class="text-1xl md:text-4xl bg-black bg-opacity-50 text-white text-center block px-8 py-2 -mt-16 md:py-8"
+                            class="text-1xl md:text-4xl bg-black bg-opacity-50 text-white text-center block px-8 py-2 md:py-8"
                         >
                             <span class="opacity-100">{{
                                 slide.headLine
@@ -32,7 +28,7 @@
                             <button
                                 class="text-xs md:text-base bg-white hover:bg-gray-200 text-gray-700 font-bold py-2 px-2 rounded"
                             >
-                                <a href="menu">View Menu</a>
+                                <a href="/menu">View Menu</a>
                             </button>
                         </div>
                     </div>
@@ -68,7 +64,7 @@ export default defineComponent({
                 bg: "url('/images/bg-home2.jpg",
             },
         ],
-        backgroundPosition: "0 -200px",
+        backgroundPosition: "0 0",
         settings: {
             itemsToShow: 1,
             snapAlign: "center",
@@ -79,10 +75,4 @@ export default defineComponent({
 </script>
 
 <style scoped>
-/* Temporary fix for not being able to scroll down on mobile using vu3-carousel. Trying to scroll down triggers sliding to next slider instead. */
-/* @media screen and (max-width: 640px) {
-    .carousel {
-        pointer-events: none;
-    }
-} */
 </style>
