@@ -1,23 +1,22 @@
 <template>
     <main>
         <div class="bg-gray-50">
-            <div class="relative h-96 mb-12">
+            <div
+                class="relative h-48 md:h-96 w-full bg-cover bg-no-repeat flex items-center justify-center mb-12"
+            >
                 <div
                     class="absolute bg-cover bg-no-repeat inset-0 flex items-center justify-center"
-                    style="
-                        background-image: url('/images/bg-menu.jpg');
-                        background-position: 0 -200px;
-                    "
+                    style="background-image: url('/images/bg-menu.jpg')"
                 >
                     <div
-                        class="bg-black bg-opacity-50 text-white text-center block px-8 py-2 md:py-8"
+                        class="bg-black bg-opacity-50 text-white text-center px-8 py-2 md:py-8"
                     >
                         <span
                             class="text-1xl sm:text-4xl opacity-100 mb-6 block"
                             >Explore our menu</span
                         >
                         <span
-                            class="text-1xl sm:text-1xl text-center text-gray-100 block mb-16"
+                            class="text-sm sm:text-1xl text-center text-gray-100 block"
                         >
                             Originating in Japan, consisting of cooked vinegared
                             rice combined with other ingredients such as raw
