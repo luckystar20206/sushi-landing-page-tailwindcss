@@ -2,7 +2,7 @@
     <main>
         <div class="bg-gray-50">
             <slider-home></slider-home>
-            <!-- <home-background></home-background> -->
+            <cta></cta>
 
             <h2 class="text-2xl md:text-4xl text-center uppercase block mb-6">
                 Explore our menu
@@ -72,6 +72,7 @@ import Location from "@/components/Location.vue";
 import SliderReviews from "@/components/SliderReviews.vue";
 import Gallery from "@/components/Gallery.vue";
 import SliderHome from "@/components/SliderHome.vue";
+import Cta from "@/components/Cta.vue";
 
 export default {
     name: "Home",
@@ -84,6 +85,7 @@ export default {
         SliderReviews,
         Gallery,
         SliderHome,
+        Cta,
     },
     data() {
         return {};

@@ -1,6 +1,6 @@
 <template>
     <div>
-        <Carousel :autoplay="6000" :wrap-around="true" class="mb-12">
+        <Carousel :autoplay="6000" :wrap-around="true">
             <Slide v-for="(slide, index) in slides" :key="slide">
                 <div
                     class="relative h-48 md:h-96 w-full bg-cover bg-no-repeat flex items-center justify-center"
