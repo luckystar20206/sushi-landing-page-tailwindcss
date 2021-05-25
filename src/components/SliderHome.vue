@@ -17,24 +17,6 @@
                                 slide.headLine
                             }}</span>
                         </div>
-                        <div
-                            class="flex flex-wrap content-around justify-center gap-2 md:gap-4"
-                        >
-                            <button
-                                class="text-xs md:text-base bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-2 rounded"
-                            >
-                                Make a reservation
-                            </button>
-                            <button
-                                class="text-xs md:text-base bg-white hover:bg-gray-200 text-gray-700 font-bold py-2 px-2 rounded"
-                            >
-                                <a
-                                    href="/menu"
-                                    @click="handleSliderButton('/menu')"
-                                    >View Menu</a
-                                >
-                            </button>
-                        </div>
                     </div>
                 </div>
             </Slide>
